@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.dad{
+    width: 60%;
+    height: 1000vh;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    padding: 20px;
+}
+.inicio{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ex{
+    background-color: white;
+    width: 65%;
+    height: 150px;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.itens{
+    width: 100%;
+    gap: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.itens2{
+    width: 100%;
+    gap: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+}
+.itens3{
+    width: 100%;
+    gap: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.paragrafo{
+    color:#007bff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn{
+    background-color: #007bff;
+    color: white;
+    border: solid 10px #007bff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.ex03{
+    background-color: white;
+    width: 65%;
+    height: 350px;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.itens4{
+    width: 100%;
+    gap: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn04{
+    background-color: #007bff;
+    color: white;
+    border: solid 10px #007bff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 220px;
+}
+.ex04{
+    background-color: white;
+    width: 65%;
+    height: 250px;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.btn-margin{
+    background-color: #007bff;
+    color: white;
+    border: solid 10px #007bff;
+    margin: 10px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn-padding{
+    background-color: #007bff;
+    color: white;
+    border: solid 10px #007bff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.ex06{
+    background-color: white;
+    width: 65%;
+    height: 300px;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.dad-img{
+width: 100%;
+height: 80%;
+background-color: #007bff;
+margin-top: 20px;
+border-radius: 10px;
+}
+.img{
+    position: absolute;
+    border-radius: 50%;
+    top: 95px;
+    left: 170px;
+}
+.ex07{
+    background-color: white;
+    width: 65%;
+    height: 170px;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.link{
+    width: 100%;
+    gap: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.btn-link{
+    background-color: #007bff;
+    color: white;
+    border: solid 10px #007bff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 450px;
+}
+.btn-link :hover{
+    text-decoration: underline;
+}
+.ex08{
+    background-color: white;
+    width: 65%;
+    height: 170px;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.item8{
+    background-color: #dc3545;
+    color: #fffde4;
+    border: solid 10px #dc3545;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 450px;
+    margin-top: 20px;
+}
+.item8 p{
+    font-family: 'Courier New', Courier, monospace;
+}
+.ex09{
+    background-color: white;
+    width: 65%;
+    height: 170px;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.item9{
+    background-color: #ffc107;
+    color: white;
+    border: solid 10px #ffc107;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 450px;
+    margin-top: 20px;
+    transition: all 400ms;
+}
+.item9:hover{
+    transform: rotate(-10deg);
+}
+.ex10{
+    background-color: white;
+    width: 65%;
+    height: 170px;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.item10{
+    background-color: #28a745;
+    color: white;
+    border: solid 10px #28a745;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 450px;
+    margin-top: 20px;
+    transition: all 0.4s ease-in-out;
+}
+.item10:hover{
+    transform: translateY(-10px);
+}
+
